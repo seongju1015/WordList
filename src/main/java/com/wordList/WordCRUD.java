@@ -148,5 +148,24 @@ public class WordCRUD implements ICRUD{
             return 0;
         }
     }
+    public int searchWord(){
+        int result = 0;
+        System.out.print("검색할 단어는 ? ");
+        String str = s.next();
+
+        for(Word wordlist : list){
+            if(wordlist.getWord().equals(str)){
+                String select_word = wordlist.toString();
+                System.out.println(select_word);
+                result = 1;
+                return result;
+            }
+            else{
+
+                result = 0;
+            }
+        }
+        return result;
+    }
 
 }

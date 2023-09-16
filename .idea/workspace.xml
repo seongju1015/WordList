@@ -4,13 +4,11 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="717f40a2-f420-46a6-a2dc-8e1b118649c1" name="Changes" comment="update , delete 함수 구현">
+    <list default="true" id="717f40a2-f420-46a6-a2dc-8e1b118649c1" name="Changes" comment="단어 검색 기능 구현">
+      <change afterPath="$PROJECT_DIR$/Dictionary.txt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/word/ICRUD.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/wordList/ICRUD.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/word/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/wordList/Main.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/word/Word.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/wordList/Word.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/word/WordCRUD.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/wordList/WordCRUD.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/word/WordManager.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/wordList/WordManager.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/wordList/WordCRUD.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/wordList/WordCRUD.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/wordList/WordManager.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/wordList/WordManager.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -84,7 +82,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1694758894912</updated>
-      <workItem from="1694758895992" duration="4272000" />
+      <workItem from="1694758895992" duration="4642000" />
     </task>
     <task id="LOCAL-00001" summary="기본적인 클래스 및 인터페이스 목록 추가">
       <option name="closed" value="true" />
@@ -150,7 +148,15 @@
       <option name="project" value="LOCAL" />
       <updated>1694868837731</updated>
     </task>
-    <option name="localTasksCounter" value="9" />
+    <task id="LOCAL-00009" summary="파일 관련 (load, save)함수 구현">
+      <option name="closed" value="true" />
+      <created>1694870126321</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1694870126321</updated>
+    </task>
+    <option name="localTasksCounter" value="10" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -163,7 +169,9 @@
     <MESSAGE value=" Word 기본 구조 및 wordManager 기본 구조 구현" />
     <MESSAGE value="add , read 함수 구현" />
     <MESSAGE value="update , delete 함수 구현" />
-    <option name="LAST_COMMIT_MESSAGE" value="update , delete 함수 구현" />
+    <MESSAGE value="파일 관련 (load, save)함수 구현" />
+    <MESSAGE value="단어 검색 기능 구현" />
+    <option name="LAST_COMMIT_MESSAGE" value="단어 검색 기능 구현" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>

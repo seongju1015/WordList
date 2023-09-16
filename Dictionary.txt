@@ -1,0 +1,4 @@
+1|mean|의미
+3|friend|친구
+2|handong|한동
+2|declare|선언하다

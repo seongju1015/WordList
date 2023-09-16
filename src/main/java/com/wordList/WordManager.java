@@ -26,6 +26,15 @@ public class WordManager {
             if(menu == 1){
                 w.read();
             }
+            else if(menu == 3){
+                if(w.searchWord() == 1){
+                    System.out.println("success!");
+                }
+                else{
+                    System.out.println("일치하는 단어가 없습니다. ");
+                    continue;
+                }
+            }
             else if(menu == 4){
                 if(w.addWord() == 1){
                     System.out.println("새 단어가 단어장에 추가되었습니다 !!!");
