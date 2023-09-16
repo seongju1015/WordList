@@ -4,7 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="717f40a2-f420-46a6-a2dc-8e1b118649c1" name="Changes" comment=" Word 기본 구조 및 wordManager 기본 구조 구현">
+    <list default="true" id="717f40a2-f420-46a6-a2dc-8e1b118649c1" name="Changes" comment="add , read 함수 구현">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/com/word/WordCRUD.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/word/WordCRUD.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/com/word/WordManager.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/word/WordManager.java" afterDir="false" />
@@ -58,7 +58,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1694758894912</updated>
-      <workItem from="1694758895992" duration="2932000" />
+      <workItem from="1694758895992" duration="3159000" />
     </task>
     <task id="LOCAL-00001" summary="기본적인 클래스 및 인터페이스 목록 추가">
       <option name="closed" value="true" />
@@ -108,7 +108,15 @@
       <option name="project" value="LOCAL" />
       <updated>1694868455999</updated>
     </task>
-    <option name="localTasksCounter" value="7" />
+    <task id="LOCAL-00007" summary="add , read 함수 구현">
+      <option name="closed" value="true" />
+      <created>1694868612908</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1694868612908</updated>
+    </task>
+    <option name="localTasksCounter" value="8" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -119,7 +127,8 @@
     <MESSAGE value="ICRUD 구현" />
     <MESSAGE value=" Main 구현" />
     <MESSAGE value=" Word 기본 구조 및 wordManager 기본 구조 구현" />
-    <option name="LAST_COMMIT_MESSAGE" value=" Word 기본 구조 및 wordManager 기본 구조 구현" />
+    <MESSAGE value="add , read 함수 구현" />
+    <option name="LAST_COMMIT_MESSAGE" value="add , read 함수 구현" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>

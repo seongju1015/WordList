@@ -29,6 +29,23 @@ public class WordManager {
                     continue;
                 }
             }
+            else if(menu == 5){
+                if(w.updateWord() == 1){
+                    System.out.println("수정되었습니다.");
+                }
+                else{
+                    continue;
+                }
+            }
+            else if(menu == 6){
+                if(w.deleteWord() == 1){
+                    System.out.println("삭제되었습니다. ");
+                }
+                else{
+                    System.out.println("취소되었습니다. ");
+                    continue;
+                }
+            }
             else{
                 break;
             }
