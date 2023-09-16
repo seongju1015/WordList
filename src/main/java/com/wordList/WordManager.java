@@ -31,7 +31,7 @@ public class WordManager {
             }
             else if(menu == 3){
                 if(w.searchWord() == 1){
-                    System.out.println("success!");
+                    System.out.println("검색 성공");
                 }
                 else{
                     System.out.println("일치하는 단어가 없습니다. ");

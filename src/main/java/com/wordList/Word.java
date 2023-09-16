@@ -35,6 +35,7 @@ public class Word {private int level;
     public void setWord(String word) {
         this.word = word;
     }
+    @Override
     public String toString() {
         String starLevel = "";
         if(level == 1){

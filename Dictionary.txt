@@ -1,4 +1,4 @@
 1|mean|의미
-3|friend|친구
+3|friendship|우정
 2|handong|한동
-2|declare|선언하다
+1|delete|삭제하다
