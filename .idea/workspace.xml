@@ -4,9 +4,8 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="717f40a2-f420-46a6-a2dc-8e1b118649c1" name="Changes" comment="ICRUD 구현">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/word/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/word/Main.java" afterDir="false" />
+    <list default="true" id="717f40a2-f420-46a6-a2dc-8e1b118649c1" name="Changes" comment=" Main 구현">
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/word/Word.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/word/Word.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -57,7 +56,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1694758894912</updated>
-      <workItem from="1694758895992" duration="2492000" />
+      <workItem from="1694758895992" duration="2569000" />
     </task>
     <task id="LOCAL-00001" summary="기본적인 클래스 및 인터페이스 목록 추가">
       <option name="closed" value="true" />
@@ -91,7 +90,15 @@
       <option name="project" value="LOCAL" />
       <updated>1694868105360</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary=" Main 구현">
+      <option name="closed" value="true" />
+      <created>1694868195309</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1694868195309</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -100,7 +107,8 @@
   <component name="VcsManagerConfiguration">
     <MESSAGE value="기본적인 클래스 및 인터페이스 목록 추가" />
     <MESSAGE value="ICRUD 구현" />
-    <option name="LAST_COMMIT_MESSAGE" value="ICRUD 구현" />
+    <MESSAGE value=" Main 구현" />
+    <option name="LAST_COMMIT_MESSAGE" value=" Main 구현" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
