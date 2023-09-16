@@ -26,6 +26,9 @@ public class WordManager {
             if(menu == 1){
                 w.read();
             }
+            else if(menu == 2){
+                w.level_read();
+            }
             else if(menu == 3){
                 if(w.searchWord() == 1){
                     System.out.println("success!");

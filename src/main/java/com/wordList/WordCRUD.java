@@ -63,6 +63,18 @@ public class WordCRUD implements ICRUD{
         System.out.println("--------------------------------");
         System.out.println();
     }
+    public void level_read(){
+        System.out.print("=> 레벨(1:초급, 2:중급, 3:고급) 선택: ");
+        int num = s.nextInt();
+        System.out.println("--------------------------------");
+        for(int i = 0; i < list.size(); i++){
+            if(list.get(i).getLevel() == num){
+                System.out.println((i+1) +" " + list.get(i).toString());
+            }
+        }
+        System.out.println("--------------------------------");
+        System.out.println();
+    }
     public int deleteWord() {
         int check = selectOne();
         int final_check = 0;
