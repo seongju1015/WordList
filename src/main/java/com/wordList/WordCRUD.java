@@ -1,4 +1,4 @@
-package com.word;
+package com.wordList;
 
 import java.util.ArrayList;
 import java.util.Scanner;
@@ -99,6 +99,54 @@ public class WordCRUD implements ICRUD{
         System.out.print("선택할 번호는? ");
         int number = s.nextInt();
         return number;
+    }
+
+    public int loadFile(){
+        String file_name = "Dictionary.txt";
+        String word;
+        try{
+            BufferedReader reader = new BufferedReader(new FileReader(file_name));
+
+            while(true){
+                word = reader.readLine();
+                if(word == null){
+                    break;
+                }
+                String data[] = word.split("\\|");
+                int w_level = Integer.parseInt(data[0]);
+                String w_word = data[1];
+                String w_mean = data[2];
+                Word w = new Word(w_level,w_word, w_mean);
+                count++;
+                list.add(w);
+            }
+            reader.close();
+
+        } catch(IOException e){
+            e.printStackTrace();
+            return 0;
+
+        }
+        return 1;
+    }
+    public int saveFile(){
+        String file_name = "Dictionary.txt";
+        try{
+            BufferedWriter writer = new BufferedWriter(new FileWriter(file_name));
+
+            for(Word wordList : list){
+                int w_level = wordList.getLevel();
+                String w_word = wordList.getWord();
+                String w_mean = wordList.getMeaning();
+                writer.write(w_level+"|"+w_word+"|"+w_mean + "\n");
+            }
+            writer.close();
+
+            return 1;
+        }catch(IOException e){
+            e.printStackTrace();
+            return 0;
+        }
     }
 
 }

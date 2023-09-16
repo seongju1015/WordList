@@ -4,10 +4,13 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="717f40a2-f420-46a6-a2dc-8e1b118649c1" name="Changes" comment="add , read 함수 구현">
+    <list default="true" id="717f40a2-f420-46a6-a2dc-8e1b118649c1" name="Changes" comment="update , delete 함수 구현">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/word/WordCRUD.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/word/WordCRUD.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/word/WordManager.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/word/WordManager.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/word/ICRUD.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/wordList/ICRUD.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/word/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/wordList/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/word/Word.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/wordList/Word.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/word/WordCRUD.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/wordList/WordCRUD.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/word/WordManager.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/wordList/WordManager.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -47,9 +50,32 @@
     "node.js.selected.package.tslint": "(autodetect)",
     "nodejs_package_manager_path": "npm",
     "onboarding.tips.debug.path": "/Users/seongju1015/IdeaProjects/WordDictionary/src/main/java/org/example/Main.java",
+    "project.structure.last.edited": "Modules",
+    "project.structure.proportion": "0.15",
+    "project.structure.side.proportion": "0.2",
     "vue.rearranger.settings.migration": "true"
   }
 }]]></component>
+  <component name="RunManager">
+    <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.wordList.Main" />
+      <module name="WordDictionary" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.wordList.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Application.Main" />
+      </list>
+    </recent_temporary>
+  </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
@@ -58,7 +84,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1694758894912</updated>
-      <workItem from="1694758895992" duration="3159000" />
+      <workItem from="1694758895992" duration="4272000" />
     </task>
     <task id="LOCAL-00001" summary="기본적인 클래스 및 인터페이스 목록 추가">
       <option name="closed" value="true" />
@@ -116,7 +142,15 @@
       <option name="project" value="LOCAL" />
       <updated>1694868612908</updated>
     </task>
-    <option name="localTasksCounter" value="8" />
+    <task id="LOCAL-00008" summary="update , delete 함수 구현">
+      <option name="closed" value="true" />
+      <created>1694868837731</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1694868837731</updated>
+    </task>
+    <option name="localTasksCounter" value="9" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -128,7 +162,8 @@
     <MESSAGE value=" Main 구현" />
     <MESSAGE value=" Word 기본 구조 및 wordManager 기본 구조 구현" />
     <MESSAGE value="add , read 함수 구현" />
-    <option name="LAST_COMMIT_MESSAGE" value="add , read 함수 구현" />
+    <MESSAGE value="update , delete 함수 구현" />
+    <option name="LAST_COMMIT_MESSAGE" value="update , delete 함수 구현" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>

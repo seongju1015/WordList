@@ -1,4 +1,4 @@
-package com.word;
+package com.wordList;
 
 public class Word {private int level;
     private String word;
@@ -34,6 +34,21 @@ public class Word {private int level;
 
     public void setWord(String word) {
         this.word = word;
+    }
+    public String toString() {
+        String starLevel = "";
+        if(level == 1){
+            starLevel = "*";
+        }
+        if(level == 2){
+            starLevel = "**";
+        }
+        if(level == 3){
+            starLevel = "***";
+        }
+
+        String str = String.format("%-3s",starLevel + String.format("%15s",word) + "  " + meaning);
+        return str;
     }
 
 }

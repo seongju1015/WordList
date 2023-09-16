@@ -1,4 +1,4 @@
-package com.word;
+package com.wordList;
 
 public interface ICRUD {
     public int addWord();

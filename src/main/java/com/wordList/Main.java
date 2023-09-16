@@ -1,12 +1,10 @@
-package com.word;
+package com.wordList;
 
 public class Main {
     public static void main(String [] args){
 
         Main m = new Main();
         m.run();
-
-
     }
     public void run(){
         WordManager w = new WordManager();

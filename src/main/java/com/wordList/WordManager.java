@@ -1,4 +1,4 @@
-package com.word;
+package com.wordList;
 
 public class WordManager {
     WordCRUD w = new WordCRUD();
@@ -7,6 +7,12 @@ public class WordManager {
         int count = 0;
         int menu = 0;
 
+        if(w.loadFile() == 1){
+            System.out.println(w.getCount()+"개 단어 로딩 완료!");
+        }
+        else{
+            System.out.println("가져올 데이터가 없습니다.");
+        }
         while(true){
             menu = w.selectMenu();
             if(menu == 0){
@@ -43,6 +49,15 @@ public class WordManager {
                 }
                 else{
                     System.out.println("취소되었습니다. ");
+                    continue;
+                }
+            }
+            else if(menu == 7){
+                if(w.saveFile() == 1){
+                    System.out.println("저장되었습니다. ");
+                }
+                else{
+                    System.out.println("실패하였습니다. ");
                     continue;
                 }
             }
